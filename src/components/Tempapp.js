@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import "./css/style.css";
+import "../style.css"
 
 const Tempapp = () => {
 

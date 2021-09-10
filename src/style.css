@@ -7,7 +7,7 @@ font-family: "Quicksand", sans-serif;
 }
 
 body {
-background: url("https://source.unsplash.com/1600x900/?nature,water");
+background: url("back.jfif");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 display: flex;
@@ -28,11 +28,13 @@ background: #eee;
 }
 
 .box {
-width: 20vw;
+width: 50vw;
 height: 60vh;
 border-radius: 0.5rem;
 box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
-background: #e2682f;
+background: url('box.jfif');
+background-repeat: no-repeat;
+background-size: 100% 100%;
 position: relative;
 overflow: hidden;
 transform: translate3d(0, 0, 0);
@@ -234,5 +236,5 @@ font-weight: bold;
 text-align: center;
 font-size: 2rem;
 margin: 2rem auto;
-font-weight:bold;
+font-weight:800;
 }
